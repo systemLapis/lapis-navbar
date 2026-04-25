@@ -116,7 +116,7 @@
       item('/blog', 'Blog', 'Aprende a invertir con control.') +
       item('/guias-practicas', 'Guías prácticas', 'Evita errores en tu proyecto.') +
       item('/metodologia-lapis', 'Metodología LAPIS', 'Cómo estructuramos y controlamos.') +
-      item('/centro-de-ayuda', 'Centro de ayuda', 'Solicita apoyo a nuestro equipo.')
+      item('/contacto', 'Centro de ayuda', 'Solicita apoyo a nuestro equipo.')
     ),
     acc('Empresa',
       item('/empresa', 'Quiénes somos', '') +
