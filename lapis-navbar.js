@@ -54,7 +54,7 @@
     '  .lapis-logo img{height:34px}',
     '  .lapis-cta{padding:10px 16px;font-size:13px}',
     '  .lapis-btn{width:42px;height:42px}',
-    '  .lapis-panel{padding:16px 16px 24px;width:100%}',
+    '  .lapis-panel{padding:16px 16px 24px;width:min(340px,78vw)}',
     '  .lapis-acc-btn{font-size:14px;padding:12px 0}',
     '  .lapis-direct{font-size:14px;padding:12px 0}',
     '  .lapis-item strong{font-size:13px}',
@@ -143,6 +143,7 @@
     var root = document.getElementById('lapis-nav-root');
     if (!root) return;
     var wrapper = document.createElement('div');
+    wrapper.style.cssText = 'width:100%;display:contents';
     wrapper.innerHTML = HTML;
     root.parentNode.replaceChild(wrapper, root);
     initEvents();
