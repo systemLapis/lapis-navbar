@@ -110,6 +110,12 @@
       item('/soluciones/auditoria-rescate', 'Auditoría y rescate', 'Corrige proyectos en riesgo.') +
       item('/soluciones/marketing-inmobiliario', 'Marketing inmobiliario', 'Vende antes de invertir.')
     ),
+    acc('Paquetes y Precios',
+      '<div class="lapis-label">Diseño y construcción</div>' +
+      item('/paquetes-diseno-construccion', 'Paquetes Básico a Gold', 'Precios por m² según nivel de proyecto.') +
+      item('/paquetes-diseno-construccion#calc', 'Calculadora de costos', 'Estima tu inversión en segundos.') +
+      item('/paquetes-diseno-construccion#compare', 'Comparativa completa', 'Qué incluye cada paquete.')
+    ),
     '      <a class="lapis-direct" href="/casos-de-exito">Casos de Éxito</a>',
     acc('Recursos',
       '<div class="lapis-label">Recursos y validación</div>' +
